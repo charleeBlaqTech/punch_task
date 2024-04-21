@@ -7,3 +7,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.market-banner{
+    @apply flex ml-[14px] gap-[14px] lg:ml-[28px] flex-wrap lg:gap-[20px] md:flex-nowrap md:gap-[20px]
+}
+.footer-btn{
+    @apply w-[162.16px] h-[50px] rounded-[20.27px] bg-[#292B34] text-[#EDEFFF] flex items-center justify-center
+}
+.footer-list-heading{
+    @apply w-auto text-left align-top leading-[32px] text-[14px]
+}
+.footer-list{
+    @apply w-full h-[24px] text-left align-top leading-[24px] text-[18px]
+}
+.footer-ul{
+    @apply flex flex-col gap-[12px] lg:gap-[22px] mt-[16px]
+}
+
+.footer-top-blue-box{
+    background-image: url('./components/icons/Rectangle\ 3215.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}

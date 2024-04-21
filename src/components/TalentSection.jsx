@@ -1,133 +1,55 @@
 import React from 'react'
-import PositonReuse from './includes/PositonReuse';
-import shopifyImg from './icons/shopify.jpg';
-import webflowImg from './icons/webflow.jpg';
-import dataImg from './icons/data.jpg';
-import dotNetImg from './icons/dotnet.jpg';
-import arrowFrontImg from './icons/arrow-front.jpg';
-import magnettoImg from './icons/magnetto.jpg';
-import unrealImg from './icons/unreal.jpg';
-import uxImg from './icons/ux.jpg';
-import graphicsImg from './icons/graphics.jpg';
-import cinemaImg from './icons/cinema.jpg';
-import arrowBackImg from './icons/arrow-back.jpg';
-import artistImg from './icons/artist.jpg';
-import vecImg from './icons/vec-circle.jpg';
-import vecCircleImg from './icons/vec-star.jpg';
-import vecDashImg from './icons/vec-dash.jpg';
+import exploreImg from './icons/explore.jpg';
+import { BannerReuse1, BannerReuse2 } from './includes/BannerReuse';
+import SkillsDetailsReuse from './includes/SkillsDetailsReuse';
 
 function TalentSection() {
   return (
-    <section className='w-full md:w-[1366px] bg-[#EDEFFF] px-[45px] lg:px-[70px] pt-[189.01px]'>
-        <div className="contents-main-header-wrap w-[977px] h-[128px] pl-[162px] text-[#202229]">
-            <h1 className='w-[100%] text-center align-top leading-[64px] text-[54px]'>Your one-step marketplace for finding the talent your business needs.</h1>
+    <section className='w-full h-auto 2xl:w-[1440px] lg:h-[1130px] bg-[#EDEFFF] px-[16px] pb-[48px] lg:pl-[70px] pt-16 lg:pt-[189.01px] 2xl:border-4'>
+        <div className="contents-main-header-wrap w-[95%] lg:w-[977px] h-[128px] lg:pl-[162px] text-[#202229]">
+            <h1 className='w-[100%] font-bold text-center align-top leading-[32px] text-[27px] lg:leading-[64px] lg:text-[54px] '>
+                Your one-step marketplace for finding the talent your business needs.
+            </h1>
         </div>
-        <div className="contents-main-blocks-wrap mt-[90px] flex items-center justify-start">
-            <div className="main-blocks-contents-left-wrap w-[380px] ">
-                <div className="left-block-top-wrap">
-                        <div className="left-block-top-header-wrap w-[380px] h-[68px] text-[#202229]">
-                            <h3 className='h-auto text-left align-top leading-[34px] text-[24px]'>Find Dev and IT professionals to scale your business.</h3>
-                        </div>
-                        <div className="left-block-top-content-wrap mt-[20px] flex items-center gap-[92px]">
-                            <div className="left-image-text-wrap w-[98px] h-[32px] flex items-center gap-[8px]">
-                                <div className="icon-wrap w-[16px] h-[21px]">
-                                    <img src={vecImg} alt="image" width={'100%'} height={'100%'}/>
-                                </div>
-                                <div className="text-wrap w-[74px] h-[32px]">
-                                    <span className='w-auto text-left align-top leading-[32px] text-[16px]'>989 Skills</span>
-                                </div>
-                            </div>
-                            <div className="right-image-text-wrap w-[167px] h-[32px] flex items-center gap-[8px]">
-                                <div className="icon-wrap w-[18px] h-[18px]">
-                                    <img src={vecDashImg} alt="image" width={'100%'} height={'100%'}/>
-                                </div>
-                                <div className="text-wrap w-[167px] h-[32px]">
-                                    <span className='w-auto text-left align-top leading-[32px] text-[16px]'>45 Sub-Categories</span>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-                <div className="left-block-bottom-wrap mt-[124px]">
-                        <div className="left-block-top-header-wrap w-[380px] h-[68px] text-[#202229]">
-                            <h3 className='h-auto text-left align-top leading-[34px] text-[24px]'>Explore creative individuals with a keen eye for detail.</h3>
-                        </div>
-                        <div className="left-block-top-content-wrap  mt-[20px] flex items-center gap-[92px]">
-                            <div className="left-image-text-wrap w-[98px] h-[32px] flex items-center gap-[8px]">
-                                <div className="icon-wrap w-[16px] h-[21px]">
-                                    <img src={vecImg} alt="image" width={'100%'} height={'100%'}/>
-                                </div>
-                                <div className="text-wrap w-[74px] h-[32px]">
-                                    <span className='w-auto text-left align-top leading-[32px] text-[16px]'>989 Skills</span>
-                                </div>
-                            </div>
-                            <div className="right-image-text-wrap w-[167px] h-[32px] flex items-center gap-[8px]">
-                                <div className="icon-wrap w-[18px] h-[18px]">
-                                    <img src={vecDashImg} alt="image" width={'100%'} height={'100%'}/>
-                                </div>
-                                <div className="text-wrap w-[167px] h-[32px]">
-                                    <span className='w-auto text-left align-top leading-[32px] text-[16px]'>45 Sub-Categories</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="left-block-top-content-wrap mt-[8px] flex items-center justify-start">
-                            <div className="left-image-text-wrap w-[98px] h-[32px] flex items-center gap-[8px]">
-                                <div className="icon-wrap w-[16px] h-[21px]">
-                                    <img src={vecCircleImg} alt="image" width={'100%'} height={'100%'}/>
-                                </div>
-                                <div className="text-wrap w-[74px] h-[32px]">
-                                    <span className='w-auto text-left align-top leading-[32px] text-[16px]'>1011 Profile</span>
-                                </div>
-                            </div>
-                        </div>
-                </div>         
+        <div className="mt-[90px] flex flex-col lg:flex-row items-center justify-start">
+            <div className="w-full lg:w-[380px] flex flex-col gap-[80px] md:flex-row md:gap-[60px] lg:flex-col lg:gap-[124px]" >
+                <SkillsDetailsReuse title={'Find Dev and IT professionals to scale your business.'} postion={'top'} />   
+                <SkillsDetailsReuse title={'Explore creative individuals with a keen eye for detail'} postion={'bottom'}/>        
             </div>
-            <div className="main-blocks-contents-right-wrap w-[730px] ml-[160px] 2xl:ml-[190px] ">
-                    <div className="right-block-top-wrap w-[730px] h-[224px] pt-[18px] bg-[#FFFFFF] rounded-[7px]">
-                        <div className="header-wrap w-[130px] h-[48px] ml-[29px] text-[#202229]">
+            <div className="w-full lg:w-[730px] lg:ml-[160px] 2xl:ml-[190px] mt-11 lg:mt-0 ">
+                    <div className="w-full h-auto pb-8 lg:pb-0 lg:w-[730px] lg:h-[224px] pt-[18px] bg-[#FFFFFF] rounded-[7px]">
+                        <div className="w-[130px] h-[48px] ml-[29px] text-[#202229]">
                             <h4 className='h-auto text-center leading-[23.8px] text-[16px] align-top'>IT &</h4>
                             <h4 className='h-auto text-center leading-[23.8px] text-[16px] align-top'>Development</h4>
                         </div>
-                        <div className="content-wrap w-full">
-                            <div className="positions-wrap ml-[28px] flex gap-[20px]">
-                                <PositonReuse title={"Shopify Developer"} image={shopifyImg}/>
-                                <PositonReuse title={"Magneto Developer"} image={magnettoImg}/>
-                                <PositonReuse title={"Data And Scientist"} image={dataImg}/>
-                                <PositonReuse title={"Webflow Developer"} image={webflowImg}/>
-                                <PositonReuse title={"Dot Net Developer"} image={dotNetImg}/>
-                                <PositonReuse title={""} image={arrowFrontImg}/>
-                            </div>
-                        </div>
+                       <BannerReuse1/>
                     </div>
-                    <div className="right-block-bottom-wrap w-[730px] h-[224px] mt-[30px] pt-[18px] bg-[#FFFFFF] rounded-[7px]">
-                        <div className="header-wrap w-[131px] h-[24px] ml-[29px] mb-[18px]">
+
+                    <div className="w-full h-auto pb-8 lg:pb-0  lg:w-[730px] lg:h-[224px] mt-[30px] pt-[18px] bg-[#FFFFFF] rounded-[7px]">
+                        <div className="w-[131px] h-[24px] ml-[29px] text-[#202229]">
                             <h4 className='w-auto  leading-[23.8px] text-[16px] align-top'>Design & Creative</h4>
                         </div>
-                        <div className="content-wrap w-full">
-                            <div className="positions-wrap ml-[28px] flex gap-[20px]">
-                                <PositonReuse title={""} image={arrowBackImg}/>
-                                <PositonReuse title={"UX Designer"} image={uxImg}/>
-                                <PositonReuse title={"Graphics Designer"} image={graphicsImg}/>
-                                <PositonReuse title={"Illustration Artist"} image={artistImg}/>
-                                <PositonReuse title={"Unreal Engine"} image={unrealImg}/>
-                                <PositonReuse title={"Cinema 4D"} image={cinemaImg}/>
-                            </div>
-                            
-                        </div>
-
+                       <BannerReuse2/>
                     </div>
             </div>
         </div>
-        <div className="contents-main-footer-wrap ">
-                <div className="content-footer-left-wrap">
-                    <div className="icon-wrap-text">
-                        <img src="" alt="" />
-                        <span>Explore More</span>
-                    </div>
+        <div className="w-full mt-[35px] flex flex-col justify-center md:flex-row items-center mdjustify-start ">    
+            <div className="w-[380px] ">
+                <div className="w-[220px] h-[74px] flex items-center gap-[11px]">
+                        <div className="icon-wrap w-[74px] h-[74px]">
+                            <img src={exploreImg} alt="" width={'100%'} height={'100%'} />
+                        </div>
+                        <div className="text-wrap w-[135px] h-[18px]">
+                            <span>Explore More</span>
+                        </div>
 
+                </div>    
+            </div>
+            <div className="w-[90%] lg:w-[730px] lg:ml-[160px] 2xl:ml-[190px] ">
+                <div className="w-full lg:w-[198px] h-[18px]">
+                    <p className='w-auto text-right lg:text-left align-top leading-[32px] text-[22px]'>30 more to explore</p>
                 </div>
-                <div className="content-footer-right-wrap">
-                    <p>30 more to explore</p>
-                </div>
+            </div>
         </div>
     </section>
   )
