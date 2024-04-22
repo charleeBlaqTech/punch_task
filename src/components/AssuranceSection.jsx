@@ -68,8 +68,8 @@ function AssuranceSection() {
                 </div>
             </div>
 
-            <div className="assurance-right-wrap pt-8 pb-[150px] xl:pb-0 lg:pt-[337px] md:pl-[40px] lg:pl-[2px] xl:pl-[85px] 2xl:pl-[166px]">
-                <div className="contents-wrap w-full lg:w-[514px] h-[524.5px] flex flex-col-reverse items-start lg:items-center xl:flex-row xl:items-start justify-center">
+            <div className="assurance-right-wrap pt-8 pb-[150px] xl:pb-0 lg:pt-[337px] md:pl-[40px] lg:pl-[2px] xl:pl-[166px]">
+                <div className="contents-wrap w-full lg:w-[514px] h-[524.5px] flex flex-col-reverse items-start lg:items-center xl:items-start justify-center lg:justify-start">
 
                     <div className='-mt-[85px] md:mt-[0px] lg:mt-[0px] xl:mt-[201.5px] flex justify-start lg:justify-end xl:justify-start items-center gap-[12px]'>
 
@@ -124,7 +124,7 @@ function AssuranceSection() {
                             </div>
                         </div>
                     </div>
-                    <div className='w-[45%] h-[44.6%] lg:w-[234px] lg:h-[234px] md:-mb-[179px] lg:-ml-0 lg:-mb-[40px] xl:-mb-0 self-end z-20'>
+                    <div className='w-[45%] h-[44.6%] lg:w-[234px] lg:h-[234px] md:-mb-[179px] lg:-ml-0 xl:-mb-[240px] self-end xl:self-center z-20'>
                         <img src={girlImg} alt="" width={'100%'} height={'100%'} className='w-full h-full object-contain' />
                     </div>
                 </div>

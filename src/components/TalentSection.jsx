@@ -14,7 +14,22 @@ function TalentSection() {
         <div className="mt-[90px] flex flex-col lg:flex-row items-center justify-start">
             <div className="w-full lg:w-[380px] flex flex-col gap-[80px] md:flex-row md:gap-[60px] lg:flex-col lg:gap-[124px]" >
                 <SkillsDetailsReuse title={'Find Dev and IT professionals to scale your business.'} postion={'top'} />   
-                <SkillsDetailsReuse title={'Explore creative individuals with a keen eye for detail'} postion={'bottom'}/>        
+                <SkillsDetailsReuse title={'Explore creative individuals with a keen eye for detail'} postion={'bottom'}/>
+
+                {/* ADDED FOR RESPONSIVESS PURPOSE, this component footer */}
+                <div className="hidden w-full flex-col h-[74px] mt-[20px] lg:flex xl:hidden items-center gap-4">    
+                    <div className="w-[100%] flex items-center justify-start gap-4">
+                        <div className="icon-wrap w-[74px] h-[74px]">
+                            <img src={exploreImg} alt="" width={'100%'} height={'100%'} />
+                        </div>
+                        <div className="text-wrap flex items-center w-[135px] h-[18px]">
+                            <span className='underline'>Explore More</span>
+                        </div>
+                    </div>
+                    <div className="w-[100%] h-[74px] flex items-center">
+                        <p className='underline w-auto h-[18px] text-right lg:text-left align-middle leading-[32px] text-[22px]'>30 more to explore</p>
+                    </div>
+                </div>        
             </div>
             <div className="w-full xl:w-[730px] lg:ml-[160px] 2xl:ml-[190px] mt-11 lg:mt-0 ">
                     <div className="w-full h-auto pb-8 lg:pb-0 xl:w-[730px] xl:h-[224px] pt-[18px] bg-[#FFFFFF] rounded-[7px]">
@@ -33,7 +48,7 @@ function TalentSection() {
                     </div>
             </div>
         </div>
-        <div className="w-full mt-[35px] flex flex-col justify-center md:flex-row items-center md:justify-start ">    
+        <div className="w-full mt-[35px] flex flex-col justify-center md:flex-row items-center md:justify-start lg:hidden xl:flex ">    
             <div className="w-[380px] ">
                 <div className="w-[220px] h-[74px] flex items-center gap-[11px]">
                         <div className="icon-wrap w-[74px] h-[74px]">

@@ -46,11 +46,11 @@ function FaqSection() {
         </div>
         <div className=" h-auto md:h-[112px] border-2 flex flex-col gap-4 md:flex-row xl:gap-[111px]">
 
-            <div className='flex flex-col md:flex-row justify-start items-center h-full'>
-              <div className='w-[100%] md:w-[115px] xl:w-[230px] h-full pl-[70px] bg-[#D6D6D6] flex items-center  border-r-2'>
+            <div className='flex flex-col xl:flex-row justify-start items-center h-full'>
+              <div className='w-[100%]  xl:w-[230px] h-full pl-[70px] bg-[#D6D6D6] flex items-center  border-r-2'>
                 <p className='w-[80px] h-[24px] text-start align-top leading-[24px] text-[22px]'>General</p>
               </div>
-              <div className='w-[100%] md:w-[115px] xl:w-[299px] h-full pl-[66px] flex items-center  border-r-2'>
+              <div className='w-[100%]  xl:w-[299px] h-full pl-[66px] flex  items-center  border-r-2'>
                 <p className='w-[154px] h-[24px] text-wrap text-start align-top leading-[24px] text-[22px]'>Joining Process</p>
               </div>
             </div>
