@@ -2,9 +2,9 @@ import React from 'react'
 
 function Nav() {
   return (
-    // i made the mx-20 for now....
+    
     <header className='w-[90.27%] 2xl:w-[1300px] h-[61px] bg-[#525AA0] ml-[4.2%] lg:ml-[70px] text-[#FFFFFF] rounded-[15px]'>
-        <nav className='hidden w-[100%] h-[100%] lg:flex gap-[21%] 2xl:gap-[274px] pl-[25px]'>
+        <nav className='hidden w-[100%] h-[100%] xl:flex gap-[21%] 2xl:gap-[274px] pl-[25px]'>
             <div className='logo w-[8.61%] 2xl:w-[112px] h-[27px] mt-[14px]'>
                 <svg width="112" height="28" viewBox="0 0 112 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 24.6698V21.354L4.8675 15.3855H0.376839V10.0801H13.0323V13.396L8.16483 19.3645H13.4092V24.6698H0Z" fill="white"/>
@@ -36,7 +36,7 @@ function Nav() {
         </nav>
 
         {/* MOBILE NAV MENY */}
-        <nav className='lg:hidden w-[100%] h-[100%] flex justify-between px-[16px]'>
+        <nav className='xl:hidden w-[100%] h-[100%] flex justify-between px-[16px]'>
             <div className='logo w-[112px] h-[27px] mt-[14px]'>
                 <svg width="112" height="28" viewBox="0 0 112 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 24.6698V21.354L4.8675 15.3855H0.376839V10.0801H13.0323V13.396L8.16483 19.3645H13.4092V24.6698H0Z" fill="white"/>
@@ -49,10 +49,18 @@ function Nav() {
                 </svg>
             </div>
            
-            <div className="menu-list-right flex ml-[16px]">
+            {/* <div className="menu-list-right flex ml-[16px]">
                 <a href="#" className='block w-[39px] h-[14px] text-[14px] mt-[23px] rounded-[15px]'>
                     <p className='w-full text-[14px]'>Log in</p>
                 </a>    
+            </div> */}
+            <div className="flex justify-center w-[160px] ml-[16px]">
+                    <a href="#" className='w-[39px] h-[14px] text-[14px] mt-[23px] rounded-[15px]'>
+                        <p className='w-full text-start text-[14px]'>Login</p>
+                    </a>
+                    <a href="#" className='bg-[#FFFFFF] w-[102px] h-[43px] mt-[9px] ml-[19px] rounded-[15px] flex items-center justify-center'>
+                        <span className='text-[#202229]'>Join Now</span>
+                    </a>
             </div>
         </nav>
     </header>

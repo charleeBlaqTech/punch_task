@@ -5,7 +5,7 @@ import SkillsDetailsReuse from './includes/SkillsDetailsReuse';
 
 function TalentSection() {
   return (
-    <section className='w-full h-auto 2xl:w-[1440px] lg:h-[1130px] bg-[#EDEFFF] px-[16px] pb-[48px] lg:pl-[70px] pt-16 md:pt-[70px] xl:pt-[189.01px] 2xl:border-4'>
+    <section className='w-full h-auto 2xl:w-[1440px] lg:h-[1130px] bg-[#EDEFFF] px-[16px] pb-[48px] lg:pl-[70px] pt-16 md:pt-[70px] xl:pt-[189.01px]'>
         <div className="contents-main-header-wrap w-[95%] xl:w-[977px] h-[128px] xl:pl-[162px] text-[#202229]">
             <h1 className='w-[100%] font-bold text-center sm:text-left xl:text-center align-top leading-[40px] text-[28px] sm:leading-[50px] sm:text-[44px] lg:leading-[55px] lg:text-[44px] '>
                 Your one-step marketplace for finding the talent your business needs.

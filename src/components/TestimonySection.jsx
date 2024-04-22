@@ -10,7 +10,7 @@ import faceImg from './icons/Frame 136.png'
 
 function TestimonySection() {
   return (
-    <section className="w-full h-auto pb-12 px-[16px] 2xl:w-[1440px] xl:pl-[78px] lg:h-[840px] bg-[#202229] text-[#FFFFFF] 2xl:border-4">
+    <section className="w-full h-auto pb-12 px-[16px] 2xl:w-[1440px] xl:pl-[78px] lg:h-[840px] bg-[#202229] text-[#FFFFFF]">
         <div className="image-row flex justify-center items-start md:justify-end mt-[2px]">
             <div className="image-wrap w-[221px] h-[175px] bg-[#202229]">
                 <img src={testimonyImg} alt="" width={'100%'} height={'100%'} className="bg-[#202229]" />

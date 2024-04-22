@@ -3,7 +3,7 @@ import faqBottomImg from './icons/faq-img-8.png'
 
 function FaqSection() {
   return (
-    <section className=" faq-styles flex flex-col items-center w-full 2xl:w-[1440px] bg-[##E8E8E8] z-10 -mb-11 xl:-mb-2">
+    <section className=" faq-styles flex flex-col items-center w-full 2xl:w-[1440px] bg-[#E8E8E8] z-10 -mb-11 xl:-mb-2">
 
       <div className="w-full lg:w-[700px] h-[54px] mt-[80px] xl:mt-[134px]">
         <h4 className='h-auto w-full font-bold text-center align-top leading-[35px] text-[28px] sm:leading-[40px] sm:text-[28px] xl:leading-[54px] xl:text-[40px] 2xl:text-[54px]'>

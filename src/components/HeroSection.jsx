@@ -38,7 +38,19 @@ function HeroSection() {
             <div className="w-full flex items-center justify-center">
                 <div className="w-full sm:w-[90%] h-auto  lg:w-[959px] sm:h-[215px] mt-[55px] pt-[15px] pl-[4.5%] 2xl:pl-[65px]  bg-[#F8F8F8] rounded-[15px] flex flex-col gap-[23px] items-center">
 
-                    <div className="w-[100%] md:w-[60%] xl:w-[391px] h-[44px] xl:ml-[200px] flex items-center relative">
+                    {/* SMALLER SCREENS LESS THAN 1025PX */}
+                    <div className="hidden lg:flex w-[391px] h-[44px] mx-[200px] xl:[mx-[0px]] xl:ml-[200px] items-center relative">
+
+                        <div className="w-[192px] h-[44px] rounded-[15px] bg-[#C7F4C2] flex items-center justify-end z-10">
+                            <p className="w-[137.6px] h-[22.43px] my-[23.37px]">IT & Development</p>
+                        </div>
+                        <div className="absolute right-4 -ml-[89px] w-[288px] h-[44px] rounded-[15px] bg-[#D2D2D2] flex items-center justify-end">
+                            <p className="w-[154.27px] h-[22.43px] my-[23.37px]">Design and Creative</p>
+                        </div>
+                    </div>
+
+                    {/* SMALLER SCREENS LESS THAN 1025PX */}
+                    <div className="lg:hidden w-[100%] md:w-[60%] xl:w-[391px] h-[44px] xl:ml-[200px] flex items-center relative">
 
                         <div className="w-[49.1%] xl:w-[192px] h-[44px] rounded-[15px] bg-[#C7F4C2] flex items-center justify-end z-10">
                             <p className="w-[137.6px] h-[22.43px] my-[23.37px]">IT & Development</p>
@@ -48,6 +60,7 @@ function HeroSection() {
                         </div>
                     </div>
 
+                        {/* Banner for displaying all the talents roles available */}
                     <div className="w-[100%] pl-4 md:pl-0 grid grid-cols-2 gap-4 sm:grid-cols-3 ">
                         <HeroBannerList props={JobRoles.colOne}/>
                         <HeroBannerList props={JobRoles.colTwo}/>
