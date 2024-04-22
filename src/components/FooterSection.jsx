@@ -6,26 +6,26 @@ import logo2 from './icons/logo-3.png'
 
 function FooterSection() {
   return (
-    <section className="w-full h-auto 2xl:w-[1440px] bg-[#000000] border-2">
+    <section className="w-full h-auto 2xl:w-[1440px] bg-[#000000]">
 
-        <div className='footer-top-section w-full h-[481px] 2xl:w-[1440px] px-[16px] 2xl:px-[70px]'>
-            <div className='footer-top-blue-box w-full h-[481px] pt-[40%] 2xl:w-[1300px]  2xl:pt-[142px]'>
-                <div className='w-[50%] h-[128px] 2xl:w-[683px] 2xl:ml-[378px]'>
+        <div className='footer-top-section w-full h-[481px] 2xl:w-[1440px] pl-[4.8%] lg:pl-[70px]'>
+            <div className='footer-top-blue-box w-[90.27%] h-1/2 lg:h-[481px] pt-[29.52%] 2xl:w-[1300px]  lg:pt-[142px]'>
+                <div className='w-[48%] h-[23.6%] lg:h-[128px] ml-[29.52%]  sm:w-[52.5%] 2xl:w-[683px] 2xl:ml-[378px]'>
                     <img src={boxTextImg} alt="" width={'100%'} height={'100%'} />
                 </div>
-                <div className='w-[63%] h-[234px] mt-[37px] 2xl:w-[730px] 2xl:ml-[355px] flex flex-col items-center gap-[44.27px] border-2'>
-                    <div className='w-[73.73px] h-[73.73px] rounded-[29.89px]'>
+                <div className='w-[56.1%] h-[51%] ml-[27%]  lg:h-[234px] md:mt-[37px] md:w-[56.15%]  2xl:w-[730px] 2xl:ml-[355px] flex flex-col items-center gap-[44.27px]'>
+                    <div className='w-[10%] h-[10%]  2xl:w-[73.73px] 2xl:h-[73.73px] rounded-[29.89px]'>
                         <img src={boxIcon} alt="" width={'100%'} height={'100%'} />
                     </div>
                     <div className='w-[100%] h-[116px]'>
-
+                        <input type="text"  className='w-full h-1/2'/>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div className="footer-top-contents mt-[65px] px-[16px] 2xl:px-[70px] flex items-center">
-            <div className="footer-main-content-left w-full h-[405px] 2xl:w-[424px] pt-[18px]">
+        <div className="footer-top-contents w-full 2xl:w-[1440px] mt-[65px] pl-[4.8%] 2xl:pl-[70px] flex flex-col lg:flex-row md:justify-between items-center">
+            <div className="footer-main-content-left w-full lg:w-[29.44%] h-[405px] 2xl:w-[424px] pt-[18px]">
                 <div className="logo-wrap w-[120px] h-[29.31px] bg-[#000000] ">
                     <img src={logo2} alt="" width={'100%'} height={'100%'} />
                 </div>
@@ -49,13 +49,13 @@ function FooterSection() {
                     </div>
                 </div>
             </div>
-            <div className="footer-main-content-right text-[#FFFFFF] w-full h-[405px] 2xl:w-[878px] border-2 flex flex-col gap-[64px]">
-                    <div className="w-[90%] h-[128px] 2xl:w-[779px] px-[16px] 2xl:pl-[70px] text-[#FFFFFF]">
-                        <p className="h-auto text-left align-top leading-[32px] text-[22px] 2xl:leading-[64px] 2xl:text-[54px]">
+            <div className="footer-main-content-right text-[#FFFFFF] w-full lg:w-[60.97%] h-auto 2xl:h-[405px] 2xl:w-[878px] flex flex-col gap-[64px]">
+                    <div className="w-[88.7%] h-[128px] 2xl:w-[779px] pl-[16px] 2xl:pl-[70px] text-[#FFFFFF]">
+                        <p className="h-auto text-left align-top leading-[40px] text-[34px] sm:leading-[54px] sm:text-[50px] 2xl:leading-[64px] 2xl:text-[54px]">
                             Connecting the right people to the right businesses.
                         </p>
                     </div>
-                    <div className="listTable-wrapper w-full h-[213px] 2xl:w-[877px] flex items-start justify-between">
+                    <div className="listTable-wrapper w-full h-auto 2xl:h-[213px] 2xl:w-[878px] flex flex-row flex-wrap items-start justify-between">
                         <div className="list-wrap">
                             <h6 className="footer-list-heading">PLATFORM</h6>
                             <ul className='footer-ul'>
@@ -91,7 +91,7 @@ function FooterSection() {
             </div>        
         </div>
 
-        <div className="footer-bottom-section mt-[148px] w-full h-[41px] 2xl:w-[1440px] px-[16px] lg:px-[70px] flex items-center justify-between border-t-2">
+        <div className="footer-bottom-section mt-[148px] w-full h-[41px] 2xl:w-[1440px] px-[16px] lg:px-[70px] flex items-center justify-between border border-[#4e4d4d]">
             <div className="left-side w-[205px] h-[32px] text-[#FFFFFF]">
             <p className='w-auto text-left align-top leading-[31px] text-[16px] md:leading-[31px] md:text-[16px]'>
                 All right reserve by Zwilt

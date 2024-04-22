@@ -10,7 +10,7 @@ import faceImg from './icons/Frame 136.png'
 
 function TestimonySection() {
   return (
-    <section className="w-full h-auto pb-12 px-[16px] 2xl:w-[1440px] lg:pl-[78px] lg:h-[840px] bg-[#202229] text-[#FFFFFF] 2xl:border-4">
+    <section className="w-full h-auto pb-12 px-[16px] 2xl:w-[1440px] xl:pl-[78px] lg:h-[840px] bg-[#202229] text-[#FFFFFF] 2xl:border-4">
         <div className="image-row flex justify-center items-start md:justify-end mt-[2px]">
             <div className="image-wrap w-[221px] h-[175px] bg-[#202229]">
                 <img src={testimonyImg} alt="" width={'100%'} height={'100%'} className="bg-[#202229]" />
@@ -47,7 +47,7 @@ function TestimonySection() {
                 </div>
             </div>
 
-            <div className="pt-24 md:pt-[151px]">
+            <div className="pt-12 md:pt-[151px] grid place-content-end lg:place-items-start">
                 <div className="h-[98.79px] flex items-center gap-[16.21px]">
                     <div className="icon-wrap w-[98.79px] h-[98.89px] inline-block mt-[20px]">
                         <img src={grooveCirImg} alt="" width={'100%'} height={'100%'} />

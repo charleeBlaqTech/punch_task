@@ -3,7 +3,7 @@ import eyeImg from '../icons/eye1.jpg';
 
 function InterviewListReuse({props}) {
   return (
-    <div className="items-wrap border-2 border-[#F0F0F0]  w-full lg:w-[635px] h-[80px] bg-[#F4F4F4] rounded-[7px] pl-[20px] py-[11px] mb-[4px] flex items-center gap-[23px]">
+    <div className="items-wrap border-2 border-[#F0F0F0]  w-full lg:w-[535px] xl:w-[635px] h-[80px] bg-[#F4F4F4] rounded-[7px] pl-[20px] py-[11px] mb-[4px] flex items-center gap-[23px]">
       <div className="icon-wrap w-[57px] h-[57px] bg-[#ECECEC] rounded-[43.94px] flex items-center p-[21px]">
             <div className='w-[15.83px] h-[14.9px] bg-[#000000] '>
                 <img src={eyeImg} alt="" width={'100%'} height={'100%'}/>

@@ -3,9 +3,9 @@ import React from 'react'
 function Nav() {
   return (
     // i made the mx-20 for now....
-    <header className='w-[90%] xl:w-[1300px] h-[61px] bg-[#525AA0] mx-[20px] text-[#FFFFFF] rounded-[15px]'>
-        <nav className='hidden w-[100%] h-[100%] sm:flex justify-evenly xl:justify-center xl:gap-[274px] pl-[25px]'>
-            <div className='logo w-[112px] h-[27px] mt-[14px]'>
+    <header className='w-[90.27%] 2xl:w-[1300px] h-[61px] bg-[#525AA0] ml-[4.2%] lg:ml-[70px] text-[#FFFFFF] rounded-[15px]'>
+        <nav className='hidden w-[100%] h-[100%] lg:flex gap-[21%] 2xl:gap-[274px] pl-[25px]'>
+            <div className='logo w-[8.61%] 2xl:w-[112px] h-[27px] mt-[14px]'>
                 <svg width="112" height="28" viewBox="0 0 112 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 24.6698V21.354L4.8675 15.3855H0.376839V10.0801H13.0323V13.396L8.16483 19.3645H13.4092V24.6698H0Z" fill="white"/>
                     <path d="M18.7276 24.6698L13.3262 10.0801H20.9886L22.6216 16.4797L24.8512 10.0801H27.7089L29.9385 16.4797L31.5715 10.0801H39.2339L33.8325 24.6698H27.8973L26.2958 20.1934L24.6628 24.6698H18.7276Z" fill="white"/>
@@ -16,7 +16,7 @@ function Nav() {
                     <path d="M93.7464 27.3542V5.98779L112 16.671L93.7464 27.3542Z" fill="#FFBE2E"/>
                 </svg>
             </div>
-            <nav className='w-[429px] h-full mt-[19px] '>
+            <nav className='w-[33%] 2xl:w-[429px] h-full mt-[19px] '>
                 <ul className='w-[100%] h-[18px] flex items-center justify-evenly gap-[11.33px]'>
                     <li className='w-[71.61px] h-[17px]'><a className='text-[#FFFFFF] font-bold text-[14px]' href='#'>Find Work</a></li>
                     <li className='w-[75.95px] h-[17px]'><a className='text-[#FFFFFF] font-bold text-[14px]' href='#'>Find Talent</a></li>
@@ -25,18 +25,18 @@ function Nav() {
                     <li className='w-[77.04px] h-[17px]'><a className='text-[#F6F6F6] text-[14px]' href='#'>Contact Us</a></li>
                 </ul>  
             </nav>
-            <div className="menu-list-right flex ml-[16px]">
-                    <a href="#" className='block w-[39px] h-[14px] text-[14px] mt-[23px] rounded-[15px]'>
+            <div className="flex justify-center w-[12.3%] 2xl:w-[160px] ml-[1.2%]  2xl:ml-[16px]">
+                    <a href="#" className='block w-[24%] 2xl:w-[39px] h-[14px] text-[14px] mt-[23px] rounded-[15px]'>
                         <p className='w-full text-[14px]'>Log in</p>
                     </a>
-                    <a href="#" className='bg-[#FFFFFF] w-[102px] h-[43px] mt-[9px] ml-[19px] rounded-[15px] flex items-center justify-center'>
+                    <a href="#" className='bg-[#FFFFFF]  w-[63.7%] 2xl:w-[102px] h-[43px] mt-[9px] ml-[11.87%] 2xl:ml-[19px] rounded-[15px] flex items-center justify-center'>
                         <span className='text-[#202229]'>Join Now</span>
                     </a>
             </div>
         </nav>
 
         {/* MOBILE NAV MENY */}
-        <nav className='sm:hidden w-[100%] h-[100%] flex justify-between px-[16px]'>
+        <nav className='lg:hidden w-[100%] h-[100%] flex justify-between px-[16px]'>
             <div className='logo w-[112px] h-[27px] mt-[14px]'>
                 <svg width="112" height="28" viewBox="0 0 112 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 24.6698V21.354L4.8675 15.3855H0.376839V10.0801H13.0323V13.396L8.16483 19.3645H13.4092V24.6698H0Z" fill="white"/>

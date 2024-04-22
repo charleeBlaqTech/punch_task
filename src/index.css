@@ -10,7 +10,7 @@
 
 
 .market-banner{
-    @apply flex ml-[14px] gap-[14px] lg:ml-[28px] flex-wrap lg:gap-[20px] md:flex-nowrap md:gap-[20px]
+    @apply flex ml-[14px] md:ml-[28px] gap-[14px] lg:ml-[28px] flex-wrap lg:gap-[20px] xl:flex-nowrap md:gap-[20px]
 }
 .footer-btn{
     @apply w-[162.16px] h-[50px] rounded-[20.27px] bg-[#292B34] text-[#EDEFFF] flex items-center justify-center
@@ -22,7 +22,7 @@
     @apply w-full h-[24px] text-left align-top leading-[24px] text-[18px]
 }
 .footer-ul{
-    @apply flex flex-col gap-[12px] lg:gap-[22px] mt-[16px]
+    @apply flex flex-col gap-[12px] lg:gap-[22px] mt-[16px] mb-2 md:mb-0
 }
 
 .footer-top-blue-box{
@@ -32,3 +32,29 @@
     background-size: cover;
     background-color: black;
 }
+
+
+ /* scroll bar styles for sliders */
+/* width */
+::-webkit-scrollbar {
+    width: 9px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    background: #E8E8E8;
+    border-radius: 25px;
+    width: 630px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #202229;
+    width: 134px;
+    border-radius: 25px;
+}
+ 
+/* Handle on hover
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+} */

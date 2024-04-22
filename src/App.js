@@ -10,7 +10,7 @@ import FaqSection from './components/FaqSection';
 
 function App() {
   return (
-    <main className="App border-4 border-red-600">
+    <main className="App">
       <HeroSection/>
       <TalentSection/>
       <TestimonySection/>
