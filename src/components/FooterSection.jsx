@@ -6,7 +6,7 @@ import logo2 from './icons/logo-3.png'
 
 function FooterSection() {
   return (
-    <section className="w-full h-auto 2xl:w-[1440px] bg-[#000000]">
+    <section className="w-full h-auto 2xl:w-[1440px] pt-8 bg-[#000000] mb-0">
 
         <div className='footer-top-section w-full h-[481px] 2xl:w-[1440px] pl-[4.8%] lg:pl-[70px]'>
             <div className='footer-top-blue-box w-[90.27%] h-1/2 lg:h-[481px] pt-[29.52%] 2xl:w-[1300px]  lg:pt-[142px]'>

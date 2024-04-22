@@ -26,10 +26,10 @@ function Nav() {
                 </ul>  
             </nav>
             <div className="flex justify-center w-[12.3%] 2xl:w-[160px] ml-[1.2%]  2xl:ml-[16px]">
-                    <a href="#" className='block w-[24%] 2xl:w-[39px] h-[14px] text-[14px] mt-[23px] rounded-[15px]'>
-                        <p className='w-full text-[14px]'>Log in</p>
+                    <a href="#" className='w-[24%] 2xl:w-[39px] h-[14px] text-[14px] mt-[23px] rounded-[15px]'>
+                        <p className='w-full text-start text-[14px]'>Login</p>
                     </a>
-                    <a href="#" className='bg-[#FFFFFF]  w-[63.7%] 2xl:w-[102px] h-[43px] mt-[9px] ml-[11.87%] 2xl:ml-[19px] rounded-[15px] flex items-center justify-center'>
+                    <a href="#" className='bg-[#FFFFFF]  w-[63.7%] 2xl:w-[102px] h-[43px] mt-[9px]  ml-[11.87%] 2xl:ml-[19px] rounded-[15px] flex items-center justify-center'>
                         <span className='text-[#202229]'>Join Now</span>
                     </a>
             </div>
