@@ -35,7 +35,7 @@ function HeroSection() {
                     </div>
                 </div>
             </div>
-            <div className="w-full flex items-center justify-center">
+            <div className="w-full flex items-center justify-center mb-[74px]">
                 <div className="w-full sm:w-[90%] h-auto  lg:w-[959px] sm:h-[215px] mt-[55px] pt-[15px] pl-[4.5%] 2xl:pl-[65px]  bg-[#F8F8F8] rounded-[15px] flex flex-col gap-[23px] items-center">
 
                     {/* SMALLER SCREENS LESS THAN 1025PX */}
@@ -70,9 +70,8 @@ function HeroSection() {
                 </div>
             </div>
         </div>
-        <div className="stripe-svg-wrap w-full mt-12 -ml-[40px] 2xl:w-[1470.89px] lg:h-[130.99px] lg:mt-[74px] lg:-ml-[96px]">   
-            <img src={stripeImg} alt="image" width={'100%'} height={'100%'} />
-        </div>
+
+        <img src={stripeImg} alt="image" width={'100%'} height={'100%'} />
     </section>
   )
 }
