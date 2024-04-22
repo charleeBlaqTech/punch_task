@@ -9,16 +9,16 @@ function FooterSection() {
     <section className="w-full h-auto 2xl:w-[1440px] pt-8 bg-[#000000] mb-0">
 
         <div className='footer-top-section w-full h-[481px] 2xl:w-[1440px] pl-[4.8%] lg:pl-[70px]'>
-            <div className='footer-top-blue-box w-[90.27%] h-1/2 lg:h-[481px] pt-[29.52%] 2xl:w-[1300px]  lg:pt-[142px]'>
-                <div className='w-[48%] h-[23.6%] lg:h-[128px] ml-[29.52%]  sm:w-[52.5%] 2xl:w-[683px] 2xl:ml-[378px]'>
-                    <img src={boxTextImg} alt="" width={'100%'} height={'100%'} />
+            <div className='footer-top-blue-box w-[90.27%] h-[100%] pt-[29.52%] 2xl:w-[1300px]  lg:pt-[142px]'>
+                <div className='h-[128px] ml-[29.52%] w-[52.5%] 2xl:w-[683px] 2xl:ml-[378px]'>
+                    <img src={boxTextImg} alt="" width={'100%'} height={'100%'}  className='object-cover'/>
                 </div>
-                <div className='w-[56.1%] h-[51%] ml-[27%]  lg:h-[234px] md:mt-[37px] md:w-[56.15%]  2xl:w-[730px] 2xl:ml-[355px] flex flex-col items-center gap-[44.27px]'>
-                    <div className='w-[10%] h-[10%]  2xl:w-[73.73px] 2xl:h-[73.73px] rounded-[29.89px]'>
+                <div className='ml-[27%] w-[56%] h-[234px] md:mt-[37px] 2xl:w-[730px] 2xl:ml-[355px] flex flex-col items-center gap-[44.27px]'>
+                    <div className='w-[73.73px] h-[73.73px] rounded-[29.89px]'>
                         <img src={boxIcon} alt="" width={'100%'} height={'100%'} />
                     </div>
                     <div className='w-[100%] h-[116px]'>
-                        <input type="text"  className='w-full h-1/2'/>
+                        {/* <input type="text"  className='w-full h-1/2'/> */}
                     </div>
                 </div>
             </div>

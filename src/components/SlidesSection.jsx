@@ -31,10 +31,10 @@ function SlidesSection() {
     setImages([slideOne, slideTwo, slideThree])
   },[])
   return (
-    <section className="pl-[16px] w-[100%] h-[1025] 2xl:w-[1440px] 2xl:pl-[70px] bg-[#E1E3F8]">
+    <section className="pl-[16px] w-[100%] h-auto 2xl:h-[1025] 2xl:w-[1440px] 2xl:pl-[70px] bg-[#E1E3F8]">
       
-       <div className="sliding-row w-[100%] h-[100%] 2xl:w-[1440px] pt-[185px] pb-[90px] 2xl:pt-[481px] flex flex-col items-center ">
-            <div className='w-[90.2%] 2xl:w-[1300px] h-[652px] rounded-[20px]'>
+       <div className="hidden sliding-row w-[100%] h-[100%] 2xl:w-[1440px] pt-[185px] pb-[90px] 2xl:pt-[481px] md:flex flex-col items-center ">
+            <div className='w-[100%] 2xl:w-[1300px] h-[652px] rounded-[20px]'>
               <img src={`${images[currentSlide]}`} alt="" width={'100%'} height={'100%'} />
             </div>
             <div className="scroll-wrap">
@@ -44,6 +44,18 @@ function SlidesSection() {
                 </div>
               </div>
             </div>
+        </div>
+       <div className="md:hidden sliding-row w-[100%] h-auto pt-[85px] pb-[40px] ">
+            <div className='w-[100%] 2xl:w-[1300px] rounded-[20px]'>
+              <img src={`${slideOne}`} alt="" width={'100%'} height={'100%'} />
+            </div>
+            <div className='w-[100%] 2xl:w-[1300px] rounded-[20px]'>
+              <img src={`${slideTwo}`} alt="" width={'100%'} height={'100%'} />
+            </div>
+            <div className='w-[100%] 2xl:w-[1300px] rounded-[20px]'>
+              <img src={`${slideThree}`} alt="" width={'100%'} height={'100%'} />
+            </div>
+           
         </div>
 
     </section>
